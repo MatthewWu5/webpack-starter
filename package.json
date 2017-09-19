@@ -4,9 +4,7 @@
   "description": "A basic setup of webpack goodness. Packed with common fronted workflow to help ease development headache. Ready with development and production config. Feel free to fork and enhance. Have an Awesome frontend coding!",
   "main": "index.js",
   "scripts": {
-    "watch": "webpack --watch",
     "start": "webpack-dev-server --open --config webpack.dev.js",
-    "server": "node server.js",
     "build": "webpack --config webpack.prod.js"
   },
   "keywords": [],
